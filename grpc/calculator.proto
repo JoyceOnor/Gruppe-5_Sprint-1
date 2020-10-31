@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package calculator;
+
+message Request {
+	int32 a = 1;
+	int32 b = 2;
+}
+
+message Response {
+	int32 result = 1; 
+}
+
+service CalculatorService{
+	rpc Sum(Request) returns (Response) {}
+
+	rpc Avg(Request) returns (Response) {}
+
+	rpc Dif(Request) returns (Response) {}
+}

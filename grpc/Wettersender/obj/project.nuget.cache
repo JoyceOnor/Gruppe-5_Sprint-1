@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "vJGym3SBgG50dfYxkb0JH13P+vKsnQuF5UdZl2AcunLw/4WeWisKBQFAvVJ4Qk0EdG2Sjwb9NFeXXNxzvl6cZg==",
+  "success": true,
+  "projectFilePath": "D:\\gRPC\\grpc\\Wettersender\\Wettersender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anwender\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"M2Mqtt 4.3.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v3.1\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "M2Mqtt",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
